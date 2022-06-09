@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite1">
+	<test name="test1" allow-return-values="true">
+	<parameter name="accNumber" value="TA-233mnPR" />
+	<parameter name="deptno" value="3" />
+	<parameter name="salary" value="78000" />
+	<parameter name="pincode" value="411009" />
+	<parameter name="updated_deptno" value="7" />
+	<parameter name="updated_salary" value="85000" />
+		<classes>
+			<class name="com.test.allTests.TekarchApiTestScriptE2E"/>
+		</classes>
+	</test>
+</suite>
